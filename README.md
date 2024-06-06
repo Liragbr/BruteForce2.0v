@@ -83,10 +83,10 @@ goto :eof
 The program begins by setting up the console and collecting user inputs. It validates the provided IP address to ensure it is in the correct format, comprising four numbers between 0 and 255. After validating the IP address, the application reads the passwords from the provided list and initiates the brute force process. Each authentication attempt is made using the net use command, and the exit code of this command is checked to determine if the attempt was successful. All results, including successful and unsuccessful attempts, are logged in a detailed log file.
 
 ## Prerequisites
-To compile and run this C# application, you will need the .NET Framework. Additionally, since the net use commands require administrative privileges, ensure that you have the necessary permissions to execute these commands.
+To compile and run this C# application, you will need the `.NET Framework`. Additionally, since the net use commands require `administrative privileges`, ensure that you have the necessary permissions to execute these commands.
 
 ## Example Usage
-When you run the program, it will prompt you to enter the target IP address, the username, and the full path to your password list file. For example:
+When you run the program, it will prompt you to enter the target `IP address`, the `username`, and the full path to your `password list` file. For example:
 ```
 Enter IP Address: 192.168.56.255
 Enter Username: admin
